@@ -3,12 +3,10 @@
 	display: grid;
 	grid-gap: 10px 20px;
 	grid-template-columns: repeat(2, 20%);
-    grid-template-rows: repeat(3, 70%);
-	place-items: center;
+    	grid-template-rows: repeat(3, 150%);
   	align-items: center;
-  	justify-items: center;
+  	justify-items: end;
 	justify-content: end;
-
 }
 
 .service {
