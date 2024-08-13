@@ -1,0 +1,33 @@
+.card-listing {
+	padding: .5rem;
+	display: grid;
+	grid-template-columns: repeat(3, 20%);
+    grid-template-rows: repeat(5, 70%);
+	grid-gap: 10px 20px;
+}
+
+section {
+	background-color: #fcfae1;
+	font-family: Verdana, Helvetica, sans-serif;
+	padding: 1rem;
+}
+
+section h3 {
+	color: #ba0722;
+	margin: 0;
+}
+
+section p {
+	margin: 0;
+}
+
+.card1 {
+    grid-column: span 2;
+}
+
+.card5 {
+	grid-column: span 1;
+    height: 50px; 
+    display: grid;
+	align-items: center;
+}
